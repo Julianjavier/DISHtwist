@@ -1,0 +1,259 @@
+
+body{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    font-family:Raleway;
+    background: url('../img/gplaypattern.png');
+}
+
+.link{
+    text-decoration:none;
+    color:#222F66;
+    margin-top:100px;
+}
+
+header{
+    background-image: url('../img/shattered-island.gif');
+    background-color: #000;
+    padding:10px;
+    overflow:hidden;
+}
+
+
+header img{
+    width:300px;
+    margin:0 0 0 10px;
+    float:left;
+    display:inline;
+}
+
+hr{
+    margin:0 0 10px 0;
+    height:10px;
+    background: #2240ad; /* Old browsers */
+    background: -moz-linear-gradient(left, #2240ad 0%, #002463 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2240ad), color-stop(100%,#002463)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #2240ad 0%,#002463 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #2240ad 0%,#002463 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #2240ad 0%,#002463 100%); /* IE10+ */
+    background: linear-gradient(to right, #2240ad 0%,#002463 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2240ad', endColorstr='#002463',GradientType=1 ); /* IE6-9 */
+    border:none;
+}
+
+.wrap{
+    margin:0 auto;
+    padding:20px 40px ;
+    overflow:hidden;
+    background-image:;
+}
+
+form{
+    clear:both;
+    margin:20px 0 0 0;
+    display:inline-block;
+    overflow:hidden;
+}
+
+form .text{
+    width:300px;
+    height:30px;
+    font-size:14px;
+}
+
+form .submit{
+    height:36px;
+    color:#fff;
+    border:none;
+    background: rgb(0,45,150); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(0,45,150,1) 0%, rgba(0,16,122,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,45,150,1)), color-stop(100%,rgba(0,16,122,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* W3C */
+}
+
+form #submit{
+    display:block;
+}
+
+.admin{
+    height:36px;
+    color:#fff;
+    border:none;
+    float:right;
+    margin:20px 0 0 0;
+    background: rgb(0,45,150); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(0,45,150,1) 0%, rgba(0,16,122,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,45,150,1)), color-stop(100%,rgba(0,16,122,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* W3C */
+}
+
+.matches{
+    float:left;
+    /* outline: 2px solid #222F66; */
+    margin:0 3% 2% 2%;
+    width:20%;
+}
+
+.matches .title{
+    height:50px;
+    color:#fff;
+    margin:-4px 0 0 0;
+    padding:2% 0 0 2%;
+    background: rgb(0,45,150); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(0,45,150,1) 0%, rgba(0,16,122,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,45,150,1)), color-stop(100%,rgba(0,16,122,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgba(0,45,150,1) 0%,rgba(0,16,122,1) 100%); /* W3C */
+}
+
+
+.matches h3{
+    margin:0;
+    line-height:inherit;
+}
+
+.matches img{
+    margin:0;
+    width:100%;
+}
+
+.matches .data{
+    padding:10px;
+    border: 2px solid grey;
+    background-color:#FFF;
+}
+
+.matches .data h3{
+    float:right;
+    margin:10px 0 10px 0;
+}
+
+.matches .data img{
+    float:right;
+    width:25px;
+}
+
+.clear{
+    clear:both;
+    height:0;
+    margin:0;
+    opacity:0;
+}
+
+.clear2{
+    clear:both;
+    height:1px;
+    margin:0 0 5px 0;
+}
+
+footer{
+    background-image: url('../img/shattered-island.gif');
+    background-color: #000;
+    padding:10px;
+    height:20px;
+    /*width:100%;*/
+}
+
+/* This will be the styles for the details view */
+
+.line{
+    height:3px;
+}
+
+.view{
+    overflow:hidden;
+    padding:10px 10px;
+    margin:0 0 0 0;
+    width:50%;
+    background-color:#FFF;
+}
+
+.view img{
+    margin:0;
+    background-color:#FFF;
+}
+
+.view #servings{
+    width:50px;
+    height:20px;
+    font-size:14px;
+}
+
+.view .data_view{
+    margin:0 auto;
+    width:100%;
+    float:left;
+    min-height:544px;
+}
+
+.view .data_view h2{
+    color:#222F66;
+}
+
+.view .data_view li{
+    margin:0 0 7px 0;
+}
+
+.view .link{
+    color:#5786C5;
+    margin-top:100px;
+    font-size:30px;
+}
+
+.userTwists{
+    width:40%;
+    overflow:hidden;
+    float:left;
+    padding:10px 10px;
+    margin:0 4% 0 0;
+    background-color:#FFF;
+}
+
+.userTwists h2 {
+    margin:0 0 20px 0;
+}
+
+.userTwistsAdmin{
+    width:100%;
+    overflow:hidden;
+    float:left;
+    padding:10px 10px;
+    margin:0 4% 0 0;
+    background-color:#FFF;
+}
+
+.twist{
+    overflow:hidden;
+}
+
+.userTwistsAdmin h2 {
+    margin:0 0 20px 0;
+}
+
+
+/* Media Queries*/
+
+@media (max-width: 920px){
+
+    .view img{
+        float:none;
+        margin:0 auto;
+        display:block;
+    }
+
+    .view .data_view{
+        margin:0 auto;
+        width:100%;
+        float:left;
+        min-height:544px;
+}
+
+}
